@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,10 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "mongoose": "^5.5.15"
+    "mongoose": "^5.5.15",
+    "webpack": "^4.41.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
   }
 }
